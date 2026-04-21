@@ -1,21 +1,34 @@
-Zepto E-commerce SQL Data Analysis Project
+🛒 Zepto E-commerce SQL Data Analysis Project
+📌 Overview
 
-This project demonstrates how SQL is used in real-world e-commerce analytics to clean data, explore inventory, and generate business insights.
+This project showcases how SQL is used in real-world e-commerce analytics to clean data, explore inventory, and generate meaningful business insights. It simulates the workflow of a data analyst working with product-level data.
 
-Project Overview
-
-The project simulates the workflow of a data analyst working with an e-commerce inventory dataset. It includes database setup, data cleaning, exploratory analysis, and writing SQL queries to derive insights related to pricing, discounts, and stock availability.
-
-Dataset
-Sourced from Kaggle (Zepto product listings)
-Each row represents a unique product SKU
-Includes product details like category, price, discount, stock, and weight
-Key Steps
-Database Creation: Designed a structured table with appropriate data types
-Data Cleaning: Removed invalid values and converted prices from paise to rupees
-Exploratory Analysis: Analyzed categories, stock status, and duplicates
-Business Insights:
-Identified top discounted products
-Analyzed revenue by category
-Found high-value and out-of-stock items
-Evaluated cost efficiency using price-per-gram
+📊 Dataset
+Source: Kaggle (Zepto product listings)
+Each row represents a unique SKU (product entry)
+Contains details like product name, category, pricing, discount, stock, and weight
+⚙️ Project Workflow
+1️⃣ Database Setup
+Created a structured SQL table with appropriate data types
+2️⃣ Data Cleaning
+Removed invalid entries (zero pricing)
+Converted prices from paise to rupees
+3️⃣ Exploratory Data Analysis (EDA)
+Analyzed product categories
+Checked stock availability
+Identified duplicate product entries
+4️⃣ Business Insights
+Top discounted products
+Revenue by category
+High-priced out-of-stock items
+Cost efficiency using price-per-gram
+🛠️ Tools & Technologies
+SQL (PostgreSQL)
+pgAdmin
+🚀 How to Run
+git clone https://github.com/amlanmohanty/zepto-SQL-data-analysis-project.git
+cd zepto-SQL-data-analysis-project
+Open zepto_SQL_data_analysis.sql
+Create a database in PostgreSQL
+Run the SQL script
+Import dataset (ensure UTF-8 format)
