@@ -1,11 +1,11 @@
-# 🛒 Zepto E-commerce SQL Data Analyst Portfolio Project
+ Zepto E-commerce SQL Data Analyst Portfolio Project
 
 This project is perfect for:
 - 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
 - 📚 Anyone learning SQL hands-on
 - 💼 Preparing for interviews in retail, e-commerce, or product analytics
-- 
-## 📌 Project Overview
+ 
+ 📌 Project Overview
 
 The goal is to simulate how actual data analysts in the e-commerce or retail industries work behind the scenes to use SQL to:
 
